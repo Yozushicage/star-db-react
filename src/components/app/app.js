@@ -22,10 +22,10 @@ export default class App extends Component {
                             <Header />
                             <RandomPlanet />
                             <Routes>
-                                <Route path="/" element={<h2>Welcome to Star DB!</h2>} />
-                                <Route path="people" element={<PeoplePage />} />
-                                <Route path="planets" element={<PlanetsPage />} />
-                                <Route path="starships" element={<StarshipsPage />} />
+                                <Route path="star-db-react/" element={<h2>Welcome to Star DB!</h2>} />
+                                <Route path="star-db-react/people" element={<PeoplePage />} />
+                                <Route path="star-db-react/planets" element={<PlanetsPage />} />
+                                <Route path="star-db-react/starships" element={<StarshipsPage />} />
                             </Routes>
                         </div>
                     </Router>
